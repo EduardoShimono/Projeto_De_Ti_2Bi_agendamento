@@ -30,4 +30,10 @@ public class Cliente {
     public long getId() {
         return id;
     }
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
 }
